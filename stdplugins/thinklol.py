@@ -5,7 +5,7 @@ import asyncio
 from collections import deque
 
 
-@borg.on(events.NewMessage(pattern=r"\.thinklol", outgoing=True))
+@borg.on(events.NewMessage(pattern=r"\.lol", outgoing=True))
 async def _(event):
 	if event.fwd_from:
 		return
