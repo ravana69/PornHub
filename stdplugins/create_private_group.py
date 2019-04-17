@@ -5,7 +5,7 @@ from telethon.tl import functions, types
 from uniborg import util
 
 
-@borg.on(util.admin_cmd(r"\.create (b|g|c) (.*)"))  # pylint:disable=E0602
+@borg.on(util.admin_cmd("create (b|g|c) (.*)"))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return

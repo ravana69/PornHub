@@ -2,9 +2,10 @@
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
+from uniborg.util import admin_cmd
 
 
-@borg.on(events.NewMessage(pattern=r"\.admin", outgoing=True))
+@borg.on(admin_cmd("admin"))
 async def _(event):
     if event.fwd_from:
         return
@@ -19,4 +20,3 @@ async def _(event):
     else:
         await event.reply(mentions)
     await event.delete()
-
