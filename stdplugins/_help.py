@@ -1,8 +1,10 @@
 import sys 
 import psutil 
 import cpuinfo
+from datetime import datetime, timedelta
 from telethon import events, functions, __version__
 from uniborg.util import admin_cmd
+from telethon.utils import get_input_location
 
 
 @borg.on(admin_cmd(pattern="helpme ?(.*)", allow_sudo=True))  # pylint:disable=E0602
