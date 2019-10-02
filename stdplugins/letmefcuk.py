@@ -1,6 +1,6 @@
 """
 
-Let me Google / YouTube / DuckDuckGo / altnews / Xvideo / Pornhub / var / log / dyno that for you! 
+Let me Google / YouTube / DuckDuckGo / altnews / Stripe / Imdb / var / log / dyno that for you! 
 
 Syntax:
 
@@ -95,7 +95,7 @@ async def _(event):
 
 
 
-        await event.edit("Let me **Googal** that for you:\n👉 [{}]({})\n`Thank me later 😉` ".format(input_str,response_api.rstrip()))
+        await event.edit("Let me **Google** that for you:\n👉 [{}]({})\n`Thank me later 😉` ".format(input_str,response_api.rstrip()))
 
 
 
@@ -231,7 +231,7 @@ async def _(event):
 
 
 
-        await event.edit("Let me **xvideo** that for you:\n👉 [{}]({})\n`Thank me later 😉` ".format(input_str,response_api.rstrip()))
+        await event.edit("Let me **Stripe** that for you:\n👉 [{}]({})\n`Thank me later 😉` ".format(input_str,response_api.rstrip()))
 
 
 
@@ -276,7 +276,7 @@ async def _(event):
 
 
 
-        await event.edit("Let me **pornhub** that for you:\n👉 [{}]({})\n`Thank me later 😉` ".format(input_str,response_api.rstrip()))
+        await event.edit("Let me **Hack** that for you:\n👉 [{}]({})\n`Thank me later 😉` ".format(input_str,response_api.rstrip()))
 
 
 
@@ -451,7 +451,7 @@ async def _(event):
 
 
 
-        await event.edit("Let me **xvideo2** that for you:\n👉 [{}]({})\n`Thank me later 😉` ".format(input_str,response_api.rstrip()))
+        await event.edit("Let me **imdb** that for you:\n👉 [{}]({})\n`Thank me later 😉` ".format(input_str,response_api.rstrip()))
 
 
 
