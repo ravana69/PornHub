@@ -2,7 +2,7 @@
 and set as own profile.
 Syntax: .copythat @username"""
 #Copy That Plugin by @ViperAdnan
-#Give credit i you are going to kang it.
+#Give credit if you are going to kang it.
 
 import html
 import os
@@ -68,7 +68,7 @@ async def _(event):
     await event.delete()
     await borg.send_message(
       event.chat_id,
-      "**We are same bro.**",
+      "**Hey ! We are same bro.**",
       reply_to=reply_message
       )
 
