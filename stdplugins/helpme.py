@@ -9,7 +9,7 @@ from uniborg.util import admin_cmd
 from sql_helpers.global_variables_sql import SYNTAX, BUILD
 
 
-@borg.on(admin_cmd(pattern="help ?(.*)", allow_sudo=True))
+@borg.on(admin_cmd(pattern="about ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
