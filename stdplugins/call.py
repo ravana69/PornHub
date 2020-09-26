@@ -1,4 +1,4 @@
-"""COMMAND : ./cull"""
+"""COMMAND : ./calltg"""
 
 from telethon import events
 
@@ -22,7 +22,7 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "/cull":
+    if input_str == "/calltg":
 
         await event.edit(input_str)
 
@@ -31,13 +31,13 @@ async def _(event):
             "`Connecting To Telegram Headquarters...`",
             "`Call Connected.`",
             "`Telegram: Hello This is Telegram HQ. Who is this?`",
-            "`Me: Yo this is` @r4v4n4 ,`Please Connect me to Pavel Durov Shukla`",
+            "`Me: Yo this is` sidhu ,`Please Connect me to Pavel Durov Shukla`",
             "`User Authorised.`",
             "`Calling Pavel Durov Shukla (@durov) At +916969696969`",
             "`Private  Call Connected...`",
-            "`Me: Hello Sir, Please Ban This Telegram Account.`",    
+            "`Me: Hello Sir, Please Ban Akash's telegram Account.`",    
             "`Durov: May I Know Who Is This?`",
-            "`Me: Yo Brah, I Am` @r4v4n4",
+            "`Me: Yo Brah, I Am` sidhu",
             "`Durov: OMG!!! I Am FAN Of You Sir...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
             "`Me: Thanks, See You Later Brah.`",
             "`Durov: Please Don't Thank Sur, Telegram Is Your's. Just Gimme A Call When You Become Free.`",

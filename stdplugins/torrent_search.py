@@ -1,6 +1,6 @@
 """
 Torrent Search Plugin for Userbot. //torrentdownloads.me
-cmd: .search search_string
+cmd: .tsearch search_string
 Note: Number of results are currently limited to 20
 
 """
